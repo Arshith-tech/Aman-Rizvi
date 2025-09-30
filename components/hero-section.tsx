@@ -57,7 +57,7 @@ export function HeroSection() {
           <div className="relative">
             <div className="aspect-square bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl flex items-center justify-center overflow-hidden">
               <img 
-                src="/profile.jpg" 
+                src="/pro.png" 
                 alt="Profile" 
                 className="w-full h-full object-cover rounded-2xl"
               />
