@@ -5,9 +5,10 @@ import { ThemeToggle } from "@/components/ui/themetoggle"; // update path as nee
 export function Nav() {
   return (
     <header className="fixed w-full z-40 backdrop-blur bg-background/80 dark:bg-black/80 border-b border-border transition-colors">
+       <ThemeToggle />
       <nav className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="h-10 w-10 rounded-lg bg-primary flex items-center justify-center text-primary-foreground font-semibold">
+          <div className="h-10 w-10 rounded-lg bg-[#141a46] flex items-center justify-center text-primary-foreground font-semibold">
             AR
           </div>
           <div>
@@ -36,7 +37,7 @@ export function Nav() {
           >
             Let's Connect
           </a>
-          <ThemeToggle />
+         
         </div>
 
         <div className="md:hidden flex items-center gap-2">
@@ -46,7 +47,6 @@ export function Nav() {
           >
             Let's Connect
           </a>
-          <ThemeToggle />
         </div>
       </nav>
     </header>
@@ -59,7 +59,7 @@ export function Footer() {
       <div className="max-w-6xl mx-auto px-6 py-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
         <div>
           <div className="flex items-center gap-3">
-            <div className="h-10 w-10 rounded-lg bg-primary flex items-center justify-center text-primary-foreground font-semibold">
+            <div className="h-10 w-10 rounded-lg bg-black flex items-center justify-center text-primary-foreground font-semibold">
               AR
             </div>
             <div>
@@ -74,7 +74,7 @@ export function Footer() {
           </div>
         </div>
         <div className="flex flex-col sm:flex-row gap-4">
-          <a href="mailto:hello@amanrizvi.com" className="px-4 py-2 rounded bg-primary text-primary-foreground">
+          <a href="mailto:hello@amanrizvi.com" className="px-4 py-2 rounded bg-black text-primary-foreground">
             Let's Connect
           </a>
           <a

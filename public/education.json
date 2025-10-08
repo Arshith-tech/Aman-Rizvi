@@ -1,0 +1,26 @@
+[
+  {
+    "institution": "Indian Institute of Management (IIM) – Calcutta",
+    "program": "Global Business Management",
+    "period": "2024 — 2025",
+    "description": "Focused on strategic leadership, enterprise transformation, and global business practices, strengthening ability to align technology programs with large-scale business outcomes.",
+    "skills": [
+      "Global Business Strategy",
+      "Enterprise Leadership",
+      "Program Management",
+      "Innovation Management"
+    ]
+  },
+  {
+    "institution": "Bengal College of Engineering & Technology",
+    "program": "Bachelor’s in Information Technology",
+    "period": "2017 — 2021",
+    "description": "Built a strong foundation in software engineering, cloud systems, and programming frameworks, while engaging in projects that applied technical knowledge to solve real-world challenges.",
+    "skills": [
+      "Information Technology",
+      "Software Engineering",
+      "Programming",
+      "Cloud Systems"
+    ]
+  }
+]
