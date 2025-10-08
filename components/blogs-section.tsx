@@ -46,7 +46,7 @@ export function BlogsSection() {
       <div className="max-w-6xl mx-auto">
         <div className="space-y-12">
           <div className="flex items-center justify-between">
-            <h2 className="text-3xl font-bold">Latest Blog Posts</h2>
+            <h2 className="text-3xl font-bold">Blogs</h2>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
