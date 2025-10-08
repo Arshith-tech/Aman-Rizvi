@@ -55,7 +55,7 @@ export function Nav() {
 
 export function Footer() {
   return (
-    <footer className="mt-12 border-t border-border bg-card dark:bg-black transition-colors">
+    <footer className=" border-t border-border bg-card dark:bg-black transition-colors">
       <div className="max-w-6xl mx-auto px-6 py-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
         <div>
           <div className="flex items-center gap-3">
